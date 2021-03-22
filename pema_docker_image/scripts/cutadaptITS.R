@@ -72,11 +72,7 @@ for (base in reverse_split) {
 ##########################################################################################
 
 # (let us hope) singularity version
-<<<<<<< HEAD
-cutadapt <- "/usr/bin/cutadapt3"
-=======
-cutadapt <- "/usr/bin/cutadapt"
->>>>>>> local_ref_db
+cutadapt <- "/home/miniconda3/bin/cutadapt"
 
 
 system2(cutadapt, args = "--version") # Run shell commands from R
